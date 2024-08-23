@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "app-demo-3"
+  description: "app-demo-3"
+  annotations:
+    github.com/project-slug: marcellosreis/app-demo-3
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/demo"
